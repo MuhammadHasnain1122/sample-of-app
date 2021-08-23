@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.grandP{
+    background-color: aqua;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+}
+.child{
+  
+    flex: auto;
+    background-color: blue;
+    height: 60vh;
+    width: 100vw;
+}
+.child1{
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    background-color: blue;
+    height: 40vh;
+    width: 100vw;
+}
+
+.heading{
+    width: auto;
+    height: 10vh;
+    font-size: 1rem;
+    padding-left: 15px;
+    padding-top: 10px;
+    text-align: left;
+    color: white;
+    
+}
+.midpart{
+    flex:auto;
+    width: auto;
+    height: 20vh;
+  
+}
+.WD{
+    padding-top: 20px;
+    padding-left: 15px;
+    font-size: 2rem;
+    color: white;
+}
+.discription{
+    padding-top: 20px;
+    padding-left: 15px;
+    color: white;
+    
+}
+
+
+.buttons{
+    flex: auto;
+    width: auto;
+    height: 20vh
+   
+}
+.loginbtm{
+   
+  margin-top: 20px;
+  margin-left: 15px;
+  color:blue;
+  font-size: 1rem;
+  background-color: white;
+  border-radius: 10px;
+  width: 20vw;
+  height: 7vh;
+}
+.SignUP{
+  
+  margin-top: 20px;
+  margin-left: 15px;
+  color: white;
+  font-size: 1rem;
+  background-color: blue;
+  border-radius: 10px;
+  width: 20vw;
+  height: 7vh;
+}
+
+
+.mainContainer{
+    display: flex;
+    flex: auto;
+    height: 30vh;
+    width: auto;
+    background-color:blue
+}
+.inputsContainer{
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    height: 40vh;
+    width: auto;
+    background-color: violet;
+}
+.lastContainer{
+    height: 30vh;
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    width: auto;
+    background-color: yellow;
+}
+.back{
+    padding-left: 15px;
+    padding-top: 10px;
+    height: 15vh;
+    color: white;
+    width: auto;
+    font-size: 1rem;
+    background-color: blue;
+}
+.main{
+    height: 15vh;
+    padding-left: 15px;
+    width: auto;
+    font-size: 3rem;
+    color: white;
+    background-color: blue;
+}
+
+.Em{
+    height: 15vh;
+    width: auto;
+    padding-top: 15px;
+    padding-left: 15px;
+    color:darkblue;
+  
+    background-color:  blue;
+}
+
+.ps{
+    height: 15vh;
+    width: auto;
+    padding-top: 15px;
+    padding-left: 15px;
+    color: gray;
+    background-color:  blue;
+}
+.Forgot{
+    height: 10vh;
+    width: auto;
+    color: wheat;
+    padding-top: 15px;
+    padding-left: 15px;
+    background-color:  blue;
+}
+
+.logi{
+    height: 10vh;
+    padding-bottom: 5px;
+    width: auto;
+    background-color: blue;
+}
+.br{
+    height: 10vh;
+    width: auto;
+
+    background-color: blue;
+
+}
+.sigu{
+    height: 10vh;
+    width: auto;
+    padding-bottom: 5px;
+    background-color: blue;
+}
+.l{
+    margin-top: 10px;
+    margin-left: 15px;
+    color:blue;
+    font-size: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    width: 20vw;
+    height: 7vh;
+    
+}
+.S{
+    margin-top: 10px;
+    margin-left: 15px;
+    color: white;
+  font-size: 1rem;
+  background-color: blue;
+  border-radius: 10px;
+  width: 20vw;
+  height: 7vh;
+}
+.b{
+    padding-top: 10px;
+    color: gray;
+   
+}
+.p1{
+ height: 30vh;
+ width: auto;
+ display: flex;
+ flex-direction: column;
+ flex: auto;
+ background-color: brown;
+}
+.p2{
+    height: 40vh;
+    width: auto;
+    display: flex;
+ flex-direction: column;
+ flex: auto;
+ background-color: cadetblue;
+
+}
+.p3{
+height: 30vh;
+width: auto;
+display: flex;
+ flex-direction: column;
+ flex: auto;
+ background-color:coral;
+}
+.name{
+ height: 15vh;
+ width: auto;
+ background-color: blue;
+}
+.email{
+ height: 15vh;
+ width: auto;
+ background-color:blue;
+}
+.password{
+    height:10vh;
+    width: auto;
+    background-color: blue;
+
+}
+.name p{
+  padding-left: 15px;
+  color: gray;
+  padding-top: 10px;
+
+}
+
+.name input{
+ margin-left: 15px;
+ margin-top: 5px;
+}
+
+.email p{
+    padding-left: 15px;
+  color: gray;
+  padding-top: 10px;
+}
+.email input{
+    margin-left: 15px;
+ margin-top: 5px
+}
+.password i{
+    padding-left: 15px;
+    color: gray;
+    padding-top: 10px;
+}
+.password input{
+    margin-left: 15px;
+ margin-top: 5px
+}
+/*
+h3{
+    margin-top: 15px;
+    font-size: 1rem;
+    padding-left: 15px;
+    color: white;
+}
+h5{
+    font-size: 2rem;
+    
+    padding-left: 15px;
+    color: white;
+}
+p{
+    
+    padding-left: 15px;
+    padding-right: 15px;
+    color: wheat;
+}
+.loginbtm{
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 10px;
+    width: 20vw;
+    height: 7vh;
+    color: blue;
+    font-size: 1rem;
+    
+}
+.SignUP{
+    margin-top: 20px;
+    margin-left: 20px;
+    background:darkblue;
+    border-radius: 10px;
+    width: 20vw;
+    height: 7vh;
+    color: white;
+    font-size: 1rem;
+}*/
